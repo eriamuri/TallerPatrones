@@ -8,7 +8,7 @@ package GestionTareas;
  *
  * @author Hp
  */
-public class TareaSimple implements Tarea {
+public class TareaSimple extends Tarea {
 
     @Override
     public void escribir() {
