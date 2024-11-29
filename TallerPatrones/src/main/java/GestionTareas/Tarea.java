@@ -4,7 +4,10 @@
  */
 package GestionTareas;
 
+import java.util.ArrayList;
 import java.util.Date;
+
+import GestionTareas.event.EventoTarea;
 
 /**
  *
@@ -15,6 +18,7 @@ public abstract class Tarea {
     private String descripcion;
     private boolean estado;
     private Date fechaEntrega;
+    protected ArrayList<EventoTarea> eventos;
 
 
     public Date getFechaEntrega() {
